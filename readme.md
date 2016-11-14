@@ -30,14 +30,11 @@ Ensure that you have installed Python (Link is given above)
   
 Open the terminal on BASH environment and execute the following:
   
-Install pip:  
-`$ sudo apt-get install pip`  
+Install python2.7, pip, python-dev and git:  
+`$ sudo apt-get install python2.7 python-pip python-dev git`  
   
 Install numpy:  
-`$ pip install numpy`  
-  
-Install git:  
-`$ sudo apt-get install git`  
+`$ sudo pip install numpy`  
   
 Clone FANDAS 2.0:  
 `$ git clone http://github.com/siddarthnarasimhan/FANDAS_2.0`  
@@ -56,8 +53,8 @@ Install python:
 `$ brew install python`  
   
 Install pip:  
-`$ brew install pip`  
-
+`$ sudo easy_install pip`  
+  
 Install numpy:  
 `$ pip install numpy`  
   
