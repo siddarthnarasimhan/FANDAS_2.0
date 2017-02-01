@@ -1111,15 +1111,11 @@ def replace_bmrb(chem_shifts, bmrb_tables_file, bmrb_columns):
         for line in bmrb_file:
             bmrb_table.append(line.split())
         bmrb_file.close()
-    if (bmrb_renumber != 0):
-        diff = int(bmrb_table[0][res_num]) - bmrb_renumber
-    else:
-        diff = 0
     for c_shift in bmrb_table:
         for i, atom in enumerate(atoms):
             if c_shift[atm_nam] == atom:
                  try: 
-                     res_ind = int(c_shift[res_num]) - diff - 1
+                     res_ind = int(c_shift[res_num]) - 1
                      chem_shifts[res_ind][i] = float(c_shift[c_s])
                  except:
                      continue
