@@ -90,8 +90,7 @@ Test if all requirements are met by running the help feature:
 `$ python fandas.py -h`  
 If you see the usage message, and no errors then, FANDAS is ready to use!  
 
-##Notes:
-###distance_calculator.py
+Notes: distance_calculator.py
 This script is used to calculate distances between homonuclear pairs of atoms from a PDB file.  
 
 The script currently does not support mmCIF format of PDB. Please convert the files accordingly.
