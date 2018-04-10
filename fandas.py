@@ -115,7 +115,6 @@ def main():
                         action = 'store_true')
     parser.add_argument('-dlist',
                          help = 'distance list (as a file) in angstorms as follows: "resi_num,atm_nam,resi_num_2,atm_nam_2,dist". EXAMPLE:"2,CA,4,CB,4.5"',
-                         nargs = '+',
                          default = '')
     parser.add_argument('-dlim',
                          help = 'distance limit in angstorms, default: 5 Angstorm',
@@ -250,7 +249,7 @@ def main():
         dlim = args.dlim
         distances = []
         dist_list = []        
-        with open("%s/results/%s/distances.txt" %(w_dir, project_name), 'r+') as list_file:
+        with open("%s/%s" %(w_dir, args.dlist), 'r+') as list_file:
             for line in list_file:
                 line = line.rstrip()
                 line = line.replace(" ", "")
