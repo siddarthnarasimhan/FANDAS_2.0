@@ -1,12 +1,12 @@
-#FANDAS 2.0
+# FANDAS 2.0
 
-##License:
+## License:
 Please Cite FANDAS 2.0 if you have used it in your research:  
 [fandas paper]  
 The user is free to modify FANDAS in any way. However, we recommend that the modifications are 
 reported to us, so as to make it available to the wider community.  
   
-##Introduction to FANDAS 2.0
+## Introduction to FANDAS 2.0
 
 Fast Analysis of multidimensional NMR DAta Sets (FANDAS) is an analysis tool
  built on Python to predict peaks in multidimensional NMR experiments on proteins.
@@ -15,7 +15,7 @@ Fast Analysis of multidimensional NMR DAta Sets (FANDAS) is an analysis tool
 software: SPARKY. Description of all the features that FANDAS offers is described in our 
 publication described above.
 
-##System Requirements
+## System Requirements
 
 1. Linux/ Mac/ Windows operating system  
 2. git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)  
@@ -23,9 +23,9 @@ publication described above.
 4. pip python package manager (https://pypi.python.org/pypi/pip)  
 5. numpy package (tested version 1.11.2) (https://www.scipy.org/scipylib/download.html)  
 
-##Installing Required Packages and FANDAS 2.0
+## Installing Required Packages and FANDAS 2.0
 
-###For Linux:  
+### For Linux:  
 Ensure that you have installed Python (Link is given above)  
   
 Open the terminal on BASH environment and execute the following:
@@ -44,7 +44,7 @@ Test if all requirements are met by running the help feature:
 `$ python fandas.py -h`  
 If you see the usage message, and no errors then, FANDAS is ready to use!  
   
-###For Mac:  
+### For Mac:  
 To install packages easily, we recommend the user to install Homebrew: http://brew.sh/  
   
 Open your favorite terminal emulator on BASH environment and execute the following:  
@@ -70,7 +70,7 @@ Test if all requirements are met by running the help feature:
 `$ python fandas.py -h`  
 If you see the usage message, and no errors then, FANDAS is ready to use!  
   
-###For Windows:
+### For Windows:
 Tip: If you are using Windows 10, we recommend the user to try the BASH on Ubuntu on
  Windows feature that is offered with the Millenium update: https://msdn.microsoft.com/en-us/commandline/wsl/about 
 that Windows 10 offers. Then on, follow the instructions for Linux mentioned above.  
