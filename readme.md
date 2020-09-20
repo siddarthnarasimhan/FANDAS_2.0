@@ -2,7 +2,7 @@
 
 ## License:
 Please Cite FANDAS 2.0 if you have used it in your research:  
-[fandas paper]  
+https://doi.org/10.1007/978-1-4939-7386-6_6  
 The user is free to modify FANDAS in any way. However, we recommend that the modifications are 
 reported to us, so as to make it available to the wider community.  
   
